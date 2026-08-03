@@ -1,1 +1,153 @@
-
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good Morning",
+        "Good Evening",
+        "Is anyone there?",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Chatbot.",
+        "Hi! How can I help you today?",
+        "Hey! Nice to meet you.",
+        "Hello! Ask me anything."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See you",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Take care!",
+        "Bye! Thank you for chatting."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank you so much",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help.",
+        "Anytime!",
+        "Glad I could help."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Tell me about yourself",
+        "What can you do?"
+      ],
+      "responses": [
+        "I am a Personalized AI Chatbot built using Python and Flask.",
+        "I am an AI chatbot designed to answer your questions.",
+        "I can chat with you and answer basic questions."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "Tell me about Python"
+      ],
+      "responses": [
+        "Python is a high-level programming language used in AI, Machine Learning, Web Development and Data Science."
+      ]
+    },
+    {
+      "tag": "flask",
+      "patterns": [
+        "What is Flask?",
+        "Explain Flask",
+        "Tell me about Flask"
+      ],
+      "responses": [
+        "Flask is a lightweight Python web framework used to build web applications and REST APIs."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "What is Artificial Intelligence?",
+        "Explain AI",
+        "What is AI?"
+      ],
+      "responses": [
+        "Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is Machine Learning?",
+        "Explain Machine Learning",
+        "What is ML?"
+      ],
+      "responses": [
+        "Machine Learning is a subset of AI where computers learn from data without being explicitly programmed."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "What is Deep Learning?",
+        "Explain Deep Learning"
+      ],
+      "responses": [
+        "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns."
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "What is SCTCE?",
+        "Tell me about SCT College",
+        "Where do you study?"
+      ],
+      "responses": [
+        "Sree Chitra Thirunal College of Engineering (SCTCE) is an engineering college located in Thiruvananthapuram, Kerala."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who developed you?",
+        "Who made you?"
+      ],
+      "responses": [
+        "I was created by Stefin Mathew as an AI Internship Major Project."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn't understand that.",
+        "Can you please rephrase your question?",
+        "I'm not sure about that. Please ask something else.",
+        "I couldn't understand your query."
+      ]
+    }
+  ]
+}
